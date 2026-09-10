@@ -6,12 +6,11 @@ int main()
 	
 	for(int i=0 ; m>i ; i++)
 	{
-		
+		int num = 1;
 		for(int b=0 ; m>b; b++){
 			cout<<num<<" ";
 			num++;
 		}
-		int num=1;
 		cout<<endl;
 		
 	}
