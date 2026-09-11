@@ -27,6 +27,7 @@ Welcome to my C++ Practice Repository! This repository documents my programming 
 | :--- | :--- |
 | [`nested_loop_pattern.cpp`](nested_loop_pattern.cpp) | Prints a 2D rectangular grid of asterisks (`*`) using nested `for` loops. |
 | [`pattern_number_square.cpp`](pattern_number_square.cpp) | Generates a 2D square matrix/grid of sequential numbers. |
+| [`pattern_alphabet_square.cpp`](pattern_alphabet_square.cpp) | Prints a 3x3 square grid of continuous alphabets (`A` to `I`) using nested loops. |
 
 ### 4. 🔢 Basics, Typecasting & I/O
 | File | Description |
