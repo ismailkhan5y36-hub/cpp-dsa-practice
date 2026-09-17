@@ -31,6 +31,8 @@ Welcome to my C++ Practice Repository! This repository documents my programming 
 | [`pattern_star_triangle.cpp`](pattern_star_triangle.cpp) | Prints a right-angled triangle pattern of asterisks (`*`). |
 | [`pattern_alphabet_triangle.cpp`](pattern_alphabet_triangle.cpp) | Prints a character triangle pattern with repeating row characters (`A`, `B B`, `C C C`...). |
 | [`pattern_reverse_number_triangle.cpp`](pattern_reverse_number_triangle.cpp) | Prints a reverse countdown number triangle (`1`, `2 1`, `3 2 1`...). |
+| [`butterflu.cpp`](butterflu.cpp) | Practice implementation of butterfly star pattern using nested loops. |
+| [`problema.cpp`](problema.cpp) | Practice program exploring nested loops with counters. |
 
 ### 4. 🔢 Basics, Typecasting & I/O
 | File | Description |
