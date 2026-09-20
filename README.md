@@ -32,6 +32,7 @@ Welcome to my C++ Practice Repository! This repository documents my programming 
 | [`pattern_alphabet_triangle.cpp`](pattern_alphabet_triangle.cpp) | Prints a character triangle pattern with repeating row characters (`A`, `B B`, `C C C`...). |
 | [`pattern_reverse_number_triangle.cpp`](pattern_reverse_number_triangle.cpp) | Prints a reverse countdown number triangle (`1`, `2 1`, `3 2 1`...). |
 | [`butterflu.cpp`](butterflu.cpp) | Practice implementation of butterfly star pattern using nested loops. |
+| [`pattern_butterfly.cpp`](pattern_butterfly.cpp) | Complete symmetrical butterfly pattern (upper and lower halves) using nested loops. |
 | [`problema.cpp`](problema.cpp) | Practice program exploring nested loops with counters. |
 
 ### 4. 🔢 Basics, Typecasting & I/O
@@ -40,6 +41,14 @@ Welcome to my C++ Practice Repository! This repository documents my programming 
 | [`billing_system.cpp`](billing_system.cpp) | Calculates item bill, total items, and average unit price using `double` and `iomanip`. |
 | [`typecasting_float_to_int.cpp`](typecasting_float_to_int.cpp) | Demonstrates explicit typecasting from `float` to `int`. |
 | [`user_input_greeting.cpp`](user_input_greeting.cpp) | Takes user input string and prints a personalized greeting message. |
+
+### 5. ⚙️ Functions & Problem Solving
+| File | Description |
+| :--- | :--- |
+| [`function_basic.cpp`](function_basic.cpp) | Basic C++ function definition, return values, and calling convention. |
+| [`function_sum_and_factorial.cpp`](function_sum_and_factorial.cpp) | Reusable functions for calculating sum of numbers up to N and factorial (N!). |
+| [`function_sum_of_digits.cpp`](function_sum_of_digits.cpp) | Function that extracts and computes the sum of individual digits of an integer. |
+| [`function_binomial_coefficient_nCr.cpp`](function_binomial_coefficient_nCr.cpp) | Computes the Binomial Coefficient \(nCr = \frac{n!}{r!(n-r)!}\) using factorial functions. |
 
 ---
 
