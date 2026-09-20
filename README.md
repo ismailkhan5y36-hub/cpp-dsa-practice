@@ -50,6 +50,11 @@ Welcome to my C++ Practice Repository! This repository documents my programming 
 | [`function_sum_of_digits.cpp`](function_sum_of_digits.cpp) | Function that extracts and computes the sum of individual digits of an integer. |
 | [`function_binomial_coefficient_nCr.cpp`](function_binomial_coefficient_nCr.cpp) | Computes the Binomial Coefficient \(nCr = \frac{n!}{r!(n-r)!}\) using factorial functions. |
 
+### 6. 🏆 Mini Projects
+| Project | Path | Description |
+| :--- | :--- | :--- |
+| **Number Utility Toolkit** | [`projects/number_utility_toolkit/`](projects/number_utility_toolkit/) | Interactive CLI toolkit featuring nCr calculation, Prime verification, Sum of digits, and Prime range generator. |
+
 ---
 
 ## 🛠️ How to Compile & Run
