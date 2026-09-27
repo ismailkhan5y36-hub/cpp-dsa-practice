@@ -54,6 +54,7 @@ Welcome to my C++ Practice Repository! This repository documents my programming 
 | Project | Path | Description |
 | :--- | :--- | :--- |
 | **Number Utility Toolkit** | [`projects/number_utility_toolkit/`](projects/number_utility_toolkit/) | Interactive CLI toolkit featuring nCr calculation, Prime verification, Sum of digits, and Prime range generator. |
+| **Student Practice System** | [`projects/student_practice_system/`](projects/student_practice_system/) | Comprehensive 260-line console system integrating student records, marks & grades, attendance eligibility, number analysis, tables, and patterns. |
 
 ---
 
