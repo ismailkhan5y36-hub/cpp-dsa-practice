@@ -12,6 +12,8 @@ All practice exercises and projects are organized into clean category folders:
 ├── 01_basics_and_conditionals/   # Core syntax, arithmetic, typecasting & branching logic
 ├── 02_loops_and_patterns/        # Iterations (for/while), reverse loops & 2D star/number patterns
 ├── 03_functions/                 # Modular functions, factorial, sum of digits & nCr formula
+├── 04_binary_and_bitwise/        # Decimal/Binary number system & bitwise tricks
+├── 05_arrays/                    # Array operations, linear search, two-pointer reverse & min/max
 └── projects/                     # Standalone CLI applications & mini projects
 ```
 
@@ -59,7 +61,28 @@ All practice exercises and projects are organized into clean category folders:
 
 ---
 
-### 4. 🏆 Standalone Mini Projects (`projects/`)
+### 4. 🔢 Binary Number System & Bitwise Operators (`04_binary_and_bitwise/`)
+| File | Description |
+| :--- | :--- |
+| [`decimal_and_binary_conversion.cpp`](04_binary_and_bitwise/decimal_and_binary_conversion.cpp) | Functions to convert Decimal to Binary (`decitobina`) and Binary to Decimal (`binatodeci`). |
+| [`check_power_of_two_bitwise.cpp`](04_binary_and_bitwise/check_power_of_two_bitwise.cpp) | Efficiently checks whether a number is a Power of 2 using bitwise trick `(num & (num - 1)) == 0`. |
+| [`bitwise_operators_check.cpp`](04_binary_and_bitwise/bitwise_operators_check.cpp) | Explores bitwise AND (`&`) and right shift (`>>`) operators. |
+
+---
+
+### 5. 📊 Arrays & Algorithms (`05_arrays/`)
+| File | Description |
+| :--- | :--- |
+| [`array_input_output.cpp`](05_arrays/array_input_output.cpp) | Basic static array declaration, user input loop, and output display. |
+| [`array_smallest_and_largest.cpp`](05_arrays/array_smallest_and_largest.cpp) | Finds the smallest and largest values in an array along with their respective index positions (`INT_MAX`, `INT_MIN`). |
+| [`array_linear_search_and_reverse.cpp`](05_arrays/array_linear_search_and_reverse.cpp) | Implements Linear Search algorithm and Two-Pointer Array Reversal (`start`, `end`, `swap`). |
+| [`array_sum_and_product.cpp`](05_arrays/array_sum_and_product.cpp) | Functions to calculate the cumulative sum and product of all array elements. |
+| [`array_pass_by_reference.cpp`](05_arrays/array_pass_by_reference.cpp) | Demonstrates passing arrays to functions and modifying elements in-place. |
+| [`swap_variables.cpp`](05_arrays/swap_variables.cpp) | Utility demonstrating value swapping using `std::swap`. |
+
+---
+
+### 6. 🏆 Standalone Mini Projects (`projects/`)
 | Project | Path | Description |
 | :--- | :--- | :--- |
 | **Number Utility Toolkit** | [`projects/number_utility_toolkit/`](projects/number_utility_toolkit/) | Interactive CLI toolkit featuring nCr calculation, Prime verification, Sum of digits, and Prime range generator. |
@@ -73,8 +96,8 @@ You can compile any `.cpp` file using `g++`:
 
 ```bash
 # Example 1: Compile from category folders
-g++ 01_basics_and_conditionals/even_or_odd.cpp -o even_or_odd.exe
-./even_or_odd.exe
+g++ 05_arrays/array_linear_search_and_reverse.cpp -o reverse_array.exe
+./reverse_array.exe
 
 # Example 2: Compile a project
 cd projects/student_practice_system
